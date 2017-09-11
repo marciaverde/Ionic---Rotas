@@ -1,0 +1,9 @@
+<ion-v/iew view-title="Posts">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="post in posts" href="#/app/detalhe-post/{{post.id}}">
+                {{post.title}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

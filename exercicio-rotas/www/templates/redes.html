@@ -1,0 +1,9 @@
+<ion-view view-title="Redes">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="rede in redes" href="#/app/detalhe-rede/{{rede.id}}">
+                {{rede.title}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
